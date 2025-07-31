@@ -1,0 +1,2 @@
+export const DEFAULT_USER_LOGO
+    = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapers.com%2Fnetflix-profile-pictures&psig=AOvVaw23b3_u5xQrpPxk8EfIY6Gd&ust=1754073359851000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJiAuNHe544DFQAAAAAdAAAAABAE"

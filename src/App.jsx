@@ -1,12 +1,18 @@
 
 import './App.css'
+import Body from './Components/Body'
+import { Provider } from 'react-redux'
+import userStore from './redux/store'
 
 function App() {
 
   return (
-    <>
-      <h1 className='text-blue-500 text-2xl'>WelCome NetFliex GPT</h1>
-    </>
+    <div>
+      <Provider store={userStore}>
+        <Body />
+      </Provider>
+    </div>
+
   )
 }
 
